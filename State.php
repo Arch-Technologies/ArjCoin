@@ -56,7 +56,7 @@ class State
             usleep(rand(300000,30000000));
             if(++$i %2){
                 $this->updateMine();
-                printf("\033[37;40m  Fav session updated  \033[39;49m\n");
+                printf("\033[37;40m  $this->user session updated  \033[39;49m\n");
             }
         }
 
