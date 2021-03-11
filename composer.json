@@ -1,0 +1,16 @@
+{
+  "name": "Arch-Technologies/ArjCoin",
+  "description": "A Peer-to-Peer Electronic Cash System",
+  "type": "library",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arjun Kannan",
+      "email": "arjunitp@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
