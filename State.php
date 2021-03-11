@@ -75,7 +75,7 @@ class State
         $this->state = file_exists($this->file) ? json_decode(file_get_contents($this->file),true):[];
     }
 
-    private function update($state)
+    public function update($state)
     {
         if(!$state){
             return;
